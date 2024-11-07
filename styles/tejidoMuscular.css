@@ -1,0 +1,95 @@
+/* General Container */
+.muscle-tissue {
+    padding: 60px 40px;
+    background-color: #e8f5ff;
+  }
+  
+  /* Header */
+  .muscle-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .muscle-title {
+    font-size: 2.5rem;
+    color: #0070f3;
+  }
+  
+  .muscle-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* Function Section */
+  .function-list, .composition-list, .types-list, .structures-list {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #0070f3;
+  }
+  
+  .function-item, .composition-item, .type-item, .structure-item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Component Sections */
+  .components-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .component-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .component-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .component-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #0070f3;
+  }
+  
+  .component-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .components-section {
+      flex-direction: column;
+    }
+  
+    .component-card {
+      width: 100%;
+    }
+  }
+  
