@@ -29,13 +29,13 @@ export default function MedicalShowcase() {
         <section className="hero-section">
           <div className="hero-text">
             <h1 className="hero-title">
-              Biología <span>Celular 1</span>
+              Biología <span>Celular1</span>
             </h1>
             <p className="hero-description">
               Preparatoria Lic. Benito Juárez García.
             </p>
             <p className="hero-description">
-            Biol. Priscila Eunice Bravo Gómez
+            Biol. Priscilla Eunice Bravo Gómez
             </p>
             <p className="hero-description">
             5to. EM
