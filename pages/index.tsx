@@ -29,16 +29,17 @@ export default function MedicalShowcase() {
         <section className="hero-section">
           <div className="hero-text">
             <h1 className="hero-title">
-              Advanced Medical <span>Technology Solutions</span>
+              Biología <span>Celular 1</span>
             </h1>
             <p className="hero-description">
-              Discover our cutting-edge medical equipment and services designed
-              to improve patient care and streamline healthcare operations.
+              Preparatoria Lic. Benito Juárez García.
             </p>
-            <div className="hero-buttons">
-              <Link href="#" className="button">Get Started</Link>
-              <Link href="#" className="button">Learn More</Link>
-            </div>
+            <p className="hero-description">
+            Biol. Priscila Eunice Bravo Gómez
+            </p>
+            <p className="hero-description">
+            5to. EM
+            </p>
           </div>
         </section>
 
@@ -48,35 +49,26 @@ export default function MedicalShowcase() {
             {[
               {
                 name: "Cisneros Ramírez Cristian",
-                description: "High-resolution imaging for accurate diagnostics",
+               
               },
               {
                 name: "Flores Rojas Miguel Ángel",
-                description: "Compact and efficient for on-the-go examinations",
+               
               },
               {
                 name: "González Osorio Emmanuel",
-                description:
-                  "Precision technology for minimally invasive procedures",
+               
               },
               {
                 name: "Hernández Hernández Jessica",
-                description:
-                  "Precision technology for minimally invasive procedures",
+                
               },
               {
                 name: "Ramírez Mota Karina ",
-                description:
-                  "Precision technology for minimally invasive procedures",
+               
               },
             ].map((product, index) => (
               <div key={index} className="equipment-item">
-                <Image
-                  src={`/placeholder.svg?height=200&width=300&text=${product.name}`}
-                  alt={product.name}
-                  width={300}
-                  height={200}
-                />
                 <h3 className="equipment-name">{product.name}</h3>
                 <p className="equipment-description">{product.description}</p>
               </div>
@@ -98,7 +90,7 @@ export default function MedicalShowcase() {
             </svg>
           </a>
         </div>
-        <p className="footer-text">&copy; 2024 MediTech, Inc. All rights reserved.</p>
+        <p className="footer-text">&copy; 2024 Chapulies, Inc. All rights reserved.</p>
       </footer>
     </div>
   );
