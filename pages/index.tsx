@@ -18,12 +18,10 @@ export default function MedicalShowcase() {
   return (
     <div className="container">
       <nav className="navbar">
-        <div className="logo">MediTech</div>
+        <div className="logo">MediBUAP</div>
         <div className="menu">
-          <Link href="#" className="menu-link">Home</Link>
-          <Link href="#" className="menu-link">Products</Link>
-          <Link href="#" className="menu-link">Services</Link>
-          <Link href="#" className="menu-link">Contact</Link>
+          <Link href="/tejidoConjuntivo" className="menu-link">Tejido Conjuntivo</Link>
+          <Link href="/tejidoMuscular" className="menu-link">Tejido Muscular</Link>
         </div>
       </nav>
 
@@ -42,30 +40,32 @@ export default function MedicalShowcase() {
               <Link href="#" className="button">Learn More</Link>
             </div>
           </div>
-          {/*<div className="hero-image">
-            <Image
-              src="/placeholder.svg?height=600&width=800"
-              alt="Medical professional using advanced equipment"
-              width={800}
-              height={600}
-            />
-          </div>*/}
         </section>
 
         <section className="equipment-section">
-          <h2 className="section-title">Featured Medical Equipment</h2>
+          <h2 className="section-title">Equipo Médico</h2>
           <div className="equipment-list">
             {[
               {
-                name: "Advanced MRI Scanner",
+                name: "Cisneros Ramírez Cristian",
                 description: "High-resolution imaging for accurate diagnostics",
               },
               {
-                name: "Portable Ultrasound",
+                name: "Flores Rojas Miguel Ángel",
                 description: "Compact and efficient for on-the-go examinations",
               },
               {
-                name: "Robotic Surgical System",
+                name: "González Osorio Emmanuel",
+                description:
+                  "Precision technology for minimally invasive procedures",
+              },
+              {
+                name: "Hernández Hernández Jessica",
+                description:
+                  "Precision technology for minimally invasive procedures",
+              },
+              {
+                name: "Ramírez Mota Karina ",
                 description:
                   "Precision technology for minimally invasive procedures",
               },
@@ -79,33 +79,6 @@ export default function MedicalShowcase() {
                 />
                 <h3 className="equipment-name">{product.name}</h3>
                 <p className="equipment-description">{product.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="services-section">
-          <h2 className="section-title">Our Medical Services</h2>
-          <div className="services-list">
-            {[
-              {
-                name: "Diagnostic Imaging",
-                description:
-                  "State-of-the-art imaging services for accurate diagnosis",
-              },
-              {
-                name: "Telemedicine",
-                description: "Remote healthcare services for convenient care",
-              },
-              {
-                name: "Preventive Care",
-                description:
-                  "Comprehensive health screenings and wellness programs",
-              },
-            ].map((service, index) => (
-              <div key={index} className="service-item">
-                <h3 className="service-name">{service.name}</h3>
-                <p className="service-description">{service.description}</p>
               </div>
             ))}
           </div>
@@ -125,7 +98,7 @@ export default function MedicalShowcase() {
             </svg>
           </a>
         </div>
-        <p className="footer-text">&copy; 2023 MediTech, Inc. All rights reserved.</p>
+        <p className="footer-text">&copy; 2024 MediTech, Inc. All rights reserved.</p>
       </footer>
     </div>
   );
