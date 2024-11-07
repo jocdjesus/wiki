@@ -70,7 +70,6 @@ export default function MedicalShowcase() {
             ].map((product, index) => (
               <div key={index} className="equipment-item">
                 <h3 className="equipment-name">{product.name}</h3>
-                <p className="equipment-description">{product.description}</p>
               </div>
             ))}
           </div>
